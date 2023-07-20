@@ -1,12 +1,11 @@
 package org.acme.model;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
-@Setter
-@NoArgsConstructor
+@Data
 public class CarDTO {
     public Long id;
     public String name;
